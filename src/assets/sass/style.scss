@@ -1,0 +1,103 @@
+/* Default styles */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+// container 
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+// header
+.header {
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #ccc;
+}
+
+// nav
+.nav {
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.nav__link {
+    font-weight: 700;
+    padding: 10px;
+    transition: opacity 0.2s linear;
+}
+.nav__link:hover {
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+// slider 
+.slider-slick {
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.rez-img {
+    max-width: 100%;
+    height: auto;
+}
+.slick-dots {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    
+}
+.slick-dots li{
+    margin: 0 5px;
+}
+.slick-dots button {
+    width: 15px;
+    height: 15px;
+    border: 0;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 0;
+    margin: 0;
+    color: transparent;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.slick-dots button:focus{
+    outline: 0;
+}
+.slick-dots .slick-active button {
+    opacity: 1;
+}
+
+
+// secition
+.section__title {
+    text-align: center;
+}
+.section__subtitle {
+    display : block;
+    text-align: center;
+}
