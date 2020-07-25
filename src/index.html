@@ -5,9 +5,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/animations.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>    
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://kit.fontawesome.com/5e926ca2ef.js" crossorigin="anonymous"></script>
     </head>
     <body>
         
@@ -46,13 +48,13 @@
                     My name is Dmitrii. I am studying in National University of Life and Environmental Sciences of Unkraine for software engineering. 
                 </p>
                 <p class="about-me__text">
-                    I am very interested in web-development. As a teenager, I was interested in PC and everything connected with it.
+                    I am very interested in web-development. As a teenager, I was interested in PC and everything connected with it...
                 </p>
                 <br>
-                <p class="about-me__text hidden">
+                <p class="about-me__text hidden animated slideInUp">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates provident, quaerat quas unde, qui odit ea reprehenderit minima blanditiis itaque animi autem magnam similique ratione consequuntur cupiditate sunt maxime consectetur dicta, tenetur eaque veniam saepe ducimus est? Suscipit ducimus animi eum ex est similique, fuga quidem. Unde iure alias maiores dolorem deserunt. Labore ullam recusandae architecto quod sint mollitia possimus corporis nesciunt ipsum aliquam? Minus reiciendis blanditiis vel voluptate iste saepe nisi iusto aliquam facilis non? Ipsum recusandae quod labore iste suscipit in facere, pariatur fugit distinctio nihil vitae itaque culpa error voluptas magni explicabo asperiores nostrum molestias! Neque, esse.
                 </p>
-                <button class="section__button" id="sectionButton">More info</button>
+                <button class="section__button" id="aboutMeButton">More info</button>
             </div>
         </section>
 
@@ -65,14 +67,161 @@
                     <button class="skills__button" id="btnHard">Hard Skills</button>
                     <button class="skills__button" id="btnSoft">Soft Skills</button>
                 </div>
-                <div class="skills__items hard--skills">
-                    Lorem ipsum dolor sit amet.
+                <div class="skills__items hard--skills animated slideInLeft">
+                    <div class="hard__item"></div>
+
+                    <div class="hard__item"></div>
+
+                    <div class="hard__item"></div>
+
+                    <div class="hard__item"></div>
+
+                    <div class="hard__item"></div>
+
+                    <div class="hard__item"></div>
+
+                    <div class="hard__item"></div>
+
+                    <div class="hard__item"></div>
                 </div>
-                <div class="skills__items soft--skills hidden">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, doloribus?
+
+                <div class="skills__items soft--skills hidden animated slideInRight">
+                    <div class="soft__item"></div>
+
+                    <div class="soft__item"></div>
+
+                    <div class="soft__item"></div>
+
+                    <div class="soft__item"></div>
+
+                    <div class="soft__item"></div>
+
+                    <div class="soft__item"></div>
+
+                    <div class="soft__item"></div>
+
+                    <div class="soft__item"></div>
                 </div>
             </div>
         </section>
+
+        <section class="section portfolio">
+            <div class="container">
+                <h2 class="section__title">My portfolio</h2>
+
+                <div class="portfolio__items">
+                    <div class="portfolio__item animated fadeInRight">
+                        <a href="https://denyskod.github.io/Mint/" target="_blank">
+                            <img class="portfolio__img" src="/assets/img/portfolio/mint.jpg" alt="">
+                        </a>
+                        <a class="portfolio-item__link" href="https://denyskod.github.io/Mint/" target="_blank">Landing Page for "Mint"</a>
+                        <p class="portfolio-item__text">View code on GitHub:</p>
+                        <div class="portfolio-item__links">
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-html5"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-css3"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item animated fadeInLeft">
+                        <a href="">
+                            <img class="portfolio__img" src="/assets/img/portfolio/phototime.jpg" alt="">
+                        </a>
+                        <a class="portfolio-item__link" href="https://denyskod.github.io/Mint/" target="_blank">Landing Page for "Phototime"</a>
+                        <p class="portfolio-item__text">View code on GitHub:</p>
+                        <div class="portfolio-item__links">
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-html5"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-css3"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item animated fadeInRight">
+                        <a href="">
+                            <img class="portfolio__img" src="/assets/img/portfolio/wireframe.jpg" alt="">
+                        </a>
+                        <a class="portfolio-item__link" href="https://denyskod.github.io/Mint/" target="_blank">Landing Page for "Wireframe"</a>
+                        <p class="portfolio-item__text">View code on GitHub:</p>
+                        <div class="portfolio-item__links">
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-html5"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-css3"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item hidden animated fadeInLeft">
+                        <a href="">
+                            <img class="portfolio__img" src="/assets/img/portfolio/php.jpg" alt="">
+                        </a>
+                        <a class="portfolio-item__link" href="https://denyskod.github.io/Mint/" target="_blank">My first PHP experience.Simple "Blog"</a>
+                        <p class="portfolio-item__text">View code on GitHub:</p>
+                        <div class="portfolio-item__links">
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item hidden animated fadeInRight">
+                        <a href="">
+                            <img class="portfolio__img" src="/assets/img/portfolio/activebox.jpg" alt="">
+                        </a>
+                        <a class="portfolio-item__link" href="https://denyskod.github.io/Mint/" target="_blank">Landing Page for "ActiveBox"</a>
+                        <p class="portfolio-item__text">View code on GitHub:</p>
+                        <div class="portfolio-item__links">
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-html5"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-css3"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item hidden animated fadeInLeft">
+                        <a href="">
+                            <img class="portfolio__img" src="/assets/img/portfolio/mogo.jpg" alt="">
+                        </a>
+                        <a class="portfolio-item__link" href="https://denyskod.github.io/Mint/" target="_blank">Landing Page for "Mogo"</a>
+                        <p class="portfolio-item__text">View code on GitHub:</p>
+                        <div class="portfolio-item__links">
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-html5"></i></a>
+                            <a class="portfolio-item__icon" href="" target="_blank"><i class="fab fa-css3"></i></a>
+                        </div>
+                    </div>
+
+                    <button class="section__button" id="portfolioButton">Show More</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section contacts">
+            <div class="container">
+                <h2 class="section__title">
+                    Contacts
+                </h2>
+                <a class="section__button contact--btn" href="https://telegram.me/dmitry_ocean">Contact me</a>
+                <div class="social__items">
+                    <a class="social__icon" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="social__icon" href="">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a class="social__icon" href="">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <copyright>Copyright © Denysko Dmitrii 2020. All Rights Reserved</copyright>
+                    <p>https://github.com/DenyskoD</p>
+                </div>
+            </div>
+        </footer>
+
 
 
 

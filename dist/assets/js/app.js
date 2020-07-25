@@ -14,13 +14,13 @@ $(function(){
 
     // about -> more info after click
 
-    $("#sectionButton").click(function(){
+    $("#aboutMeButton").click(function(){
         $(".about-me__text").removeClass("hidden");
     });
 
-    // button -> hidder
-    $("#sectionButton").click(function(){
-        $("#sectionButton").addClass("hidden");
+    // button -> hidden
+    $("#aboutMeButton").click(function(){
+        $("#aboutMeButton").addClass("hidden");
     });
 
     
@@ -34,6 +34,17 @@ $(function(){
     $("#btnHard").click(function(){
         $(".hard--skills").removeClass("hidden");
         $(".soft--skills").addClass("hidden");
+    });
+
+    // portfolio -> more items after click
+
+    $("#portfolioButton").click(function(){
+        $(".portfolio__item").removeClass("hidden");
+    });
+
+    // button -> hidden
+    $("#portfolioButton").click(function(){
+        $("#portfolioButton").addClass("hidden");
     });
 
 

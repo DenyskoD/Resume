@@ -11,7 +11,6 @@ body {
     background: #c4d1e2 url(../img/introbg.jpg) center no-repeat;
     background-size: cover;
     font-size: 15px;
-    height: 5000px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -123,7 +122,7 @@ a {
     padding: 5px 20px;
     cursor: pointer;
     font-weight: 500;
-    transition: border-color 0.2s linear , color 0.2s linear;
+    transition: color 0.2s linear , background 0.2s linear;
 }
 
 .section__button.hidden {
@@ -131,8 +130,8 @@ a {
 }
 
 .section__button:hover {
-    border-color: #666;
-    color: #666;
+    background: #000;
+    color: #fff;
 }
 
 .intro {
@@ -158,4 +157,79 @@ a {
 
 .skills__items.hidden {
     display: none;
+}
+
+.hard--skills, .soft--skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.soft__item, .hard__item {
+    width: 23%;
+    border: 1px solid #000;
+    height: 100px;
+}
+
+.portfolio__item.hidden {
+    display: none;
+}
+
+.portfolio-item__link {
+    display: block;
+    text-align: center;
+}
+
+.portfolio__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s linear;
+    transition: box-shadow 0.2s linear;
+}
+
+.portfolio__img:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-item__text {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio-item__links {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-item__icon {
+    font-size: 40px;
+}
+
+.contact--btn {
+    text-align: center;
+    width: 120px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.social__items {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social__icon {
+    font-size: 40px;
+}
+
+.footer {
+    margin-top: 30px;
+    border-top: 1px solid #fafafa;
+}
+
+.footer__inner {
+    text-align: center;
+    padding: 10px 0;
 }
