@@ -29,11 +29,15 @@ $(function(){
     $("#btnSoft").click(function(){
         $(".soft--skills").removeClass("hidden");
         $(".hard--skills").addClass("hidden");
+        $("#btnSoft").addClass("active");
+        $("#btnHard").removeClass("active");
     });
 
     $("#btnHard").click(function(){
         $(".hard--skills").removeClass("hidden");
         $(".soft--skills").addClass("hidden");
+        $("#btnHard").addClass("active");
+        $("#btnSoft").removeClass("active");
     });
 
     // portfolio -> more items after click
