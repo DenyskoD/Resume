@@ -355,7 +355,7 @@ a {
 
 // social
 
-.fab.fa-github,.fab.fa-html,.fab.fa-css3,.fab.fa-linkedin,.fab.fa-instagram {
+.fab.fa-github,.fab.fa-html,.fab.fa-css3,.fab.fa-js-square,.fab.fa-linkedin,.fab.fa-instagram {
     transition: opacity 0.1s linear , color 0.1s linear;
 }
 .fab.fa-github:hover{
@@ -366,6 +366,9 @@ a {
 }
 .fab.fa-css3:hover {
     color: #006fb7;
+}
+.fab.fa-js-square:hover {
+    color: #f7df1e;
 }
 .fab.fa-linkedin:hover {
     color: #0073af;
