@@ -358,7 +358,7 @@ a {
     padding: 10px 0;
 }
 
-.fab.fa-github, .fab.fa-html, .fab.fa-css3, .fab.fa-js-square, .fab.fa-linkedin, .fab.fa-instagram {
+.fab.fa-github, .fab.fa-html, .fab.fa-css3, .fab.fa-js-square, .fab.fa-linkedin, .fab.fa-instagram, .fas.fa-envelope-square {
     transition: opacity 0.1s linear , color 0.1s linear;
 }
 
@@ -380,6 +380,10 @@ a {
 
 .fab.fa-linkedin:hover {
     color: #0073af;
+}
+
+.fas.fa-envelope-square:hover {
+    color: #e85a4e;
 }
 
 .fab.fa-instagram:hover {
